@@ -1,5 +1,5 @@
 .icon_facebook{
-    background-image: url("./images/facebook.png");
+    background-image: url("facebook.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20px;
@@ -8,7 +8,7 @@
 }
 
 .icon_whatsapp{
-    background-image: url("./images/whatsapp.png");
+    background-image: url("whatsapp.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20px;
@@ -16,7 +16,7 @@
     transition: 0.5s;
 }
 .icon_tiktok{
-    background-image: url("./images/tiktok.png");
+    background-image: url("tiktok.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20px;
@@ -24,7 +24,7 @@
     transition: 0.5s;
 }
 .icon_instagram{
-    background-image: url("./images/instagram.png");
+    background-image: url("instagram.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20px;
