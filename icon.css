@@ -1,0 +1,46 @@
+.icon_facebook{
+    background-image: url("./images/facebook.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+    filter: invert(1);
+    transition: 0.5s;
+}
+
+.icon_whatsapp{
+    background-image: url("./images/whatsapp.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+    filter: invert(1);
+    transition: 0.5s;
+}
+.icon_tiktok{
+    background-image: url("./images/tiktok.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+    filter: invert(1);
+    transition: 0.5s;
+}
+.icon_instagram{
+    background-image: url("./images/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+    filter: invert(1);
+    transition: 0.5s;
+}
+
+.icon_facebook:hover{
+    background-color: #ffa500;
+}
+.icon_whatsapp:hover{
+    background-color: #993399;
+}
+.icon_tiktok:hover{
+    background-color: #ffffff;
+}
+.icon_instagram:hover{
+    background-color: #00FFFF;
+}
