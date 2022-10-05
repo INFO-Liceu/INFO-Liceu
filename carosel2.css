@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 .sliderr {
     width: 770px;
     text-align: center;
@@ -163,30 +159,72 @@
 
 @media (max-width: 999px) {
     .sliderr {
-        width: 100%;
+        width: 390px;
         transform: translate(-1%);
     }
 
     .slidess > div {
-        width: 100%;
+        width: 390px;
         height: 280px;
     }
-
-    .slidess > div {
-        flex-shrink: 0;
-        width: 770px;
-        height: 400px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     .img0001{
-        background-image: url("0307.jpeg");
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        width: 100%;
-        height: 100%;
+        max-width: 380px;
+        max-height: 120px;
+        width: 390px;
+        height: 280px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; 
+    }
+    .img0002{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 390px;
+        max-height: 150px;
+        width: 390px;
+        height: 280px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; 
+    }
+    .img0003{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 380px;
+        max-height: 165.5px;
+        width: 390px;
+        height: 280px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; 
+    }
+    .img0004{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 380px;
+        max-height: 135px;
+        width: 390px;
+        height: 280px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; 
+    }
+    .img0005{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 180px;
+        max-height: 280px;
+        width: 390px;
+        height: 280px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; 
     }
 }
