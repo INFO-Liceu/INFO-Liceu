@@ -13,18 +13,18 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
         <script>
-            // fetch('https://api.unsplash.com/photos/random/?count=5&client_id=52d8369eb3e2576a5f5b6423865e074e9c7045761bff1ac5664ff3e0bdb57a1d') 
-            //   .then(response => response.json())
-            //   .then(data => {
-            //     data.forEaach(function(image, i) {
-            //       document.querySelector("#slide-" + (i+1)).innerHTML = `
-            //         <img src="${image.urls.regular}" alt="">
-            //         <p class="author-info">
-            //           <a href="${image.links.html}?utm_source=slider-thing&utm_medium=referral&utm_campaign=api-credit">Photo by ${image.user.name}</a> on <a href="https://unsplash.com/">Unsplash</a>
-            //         </p>
-            //       `;
-            //     });
-            //   });
+             fetch('https://api.unsplash.com/photos/random/?count=5&client_id=52d8369eb3e2576a5f5b6423865e074e9c7045761bff1ac5664ff3e0bdb57a1d') 
+               .then(response => response.json())
+               .then(data => {
+                 data.forEaach(function(image, i) {
+                   document.querySelector("#slide-" + (i+1)).innerHTML = `
+                     <img src="${image.urls.regular}" alt="">
+                     <p class="author-info">
+                       <a href="${image.links.html}?utm_source=slider-thing&utm_medium=referral&utm_campaign=api-credit">Photo by ${image.user.name}</a> on <a href="https://unsplash.com/">Unsplash</a>
+                     </p>
+                   `;
+                 });
+               });
         </script>
         <style>
             .cardapio {
@@ -242,11 +242,21 @@
                     <h5>Cardápio Semanal da escola</h5>
                     <div class="sliderr">
                         <div class="slidess">
-                            <div class="img0001"></div>
-                            <div class="img0002"></div>
-                            <div class="img0003"></div>
-                            <div class="img0004"></div>
-                            <div class="img0005"></div>
+                            <div id="slide-1">
+                                <div class="img0001"></div>
+                            </div>
+                            <div id="slide-2">
+                                <div class="img0002"></div>
+                            </div>
+                            <div id="slide-3">
+                                <div class="img0003"></div>
+                            </div>
+                            <div id="slide-4">
+                                <div class="img0004"></div>
+                            </div>
+                            <div id="slide-5">
+                                <div class="img0005"></div>
+                            </div>
                         </div>
                     </div>
                     <p><u>Não nos responsabilizamos por alterações no cardápio.</u></p>
