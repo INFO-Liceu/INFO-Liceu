@@ -85,7 +85,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 700px 300px; 
-    background-image: url("0307.png");
+    background-image: url("pr.png");
 }
 .sg{
     color: white;
@@ -97,7 +97,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 700px 300px; 
-    background-image: url("1014.png");
+    background-image: url("sg.png");
 }
 .tr{
     color: white;
@@ -109,7 +109,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 700px 300px; 
-    background-image: url("1721.png");
+    background-image: url("tr.png");
 }
 .qua{
     color: white;
@@ -121,7 +121,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 700px 300px; 
-    background-image: url("2428.png");
+    background-image: url("qua.png");
 }
 .qui{
     color: white;
@@ -133,7 +133,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 700px 300px; 
-    background-image: url("31.png");
+    background-image: url("qui.png");
 }
 
 @media (max-width: 999px) {
